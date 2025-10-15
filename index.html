@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#travail">Travail</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- À propos -->
+  <section id="a-propos">
+    <h2>À propos de moi</h2>
+    <img src="ma-photo.jpg" alt="Photo de moi" width="200" />
+    <p>Je suis développeur web passionné par la création de sites modernes et performants.</p>
+  </section>
+
+  <!-- Compétences -->
+  <section id="travail">
+    <h2>Mes compétences</h2>
+    <ul>
+      <li>HTML5 / CSS3</li>
+      <li>JavaScript / React</li>
+      <li>PHP / MySQL</li>
+      <li>Git / GitHub</li>
+    </ul>
+  </section>
+
+  <!-- CV -->
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <p>Vous pouvez télécharger mon CV ici :</p>
+    <a href="cv.pdf" target="_blank">Télécharger le CV (PDF)</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="mailto:tonemail@example.com" method="POST">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required /> <br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required /><br>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; Mon Portfolio 2025</p>
+  </footer>
+
+</body>
+</html>
